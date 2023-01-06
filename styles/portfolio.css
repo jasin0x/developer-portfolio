@@ -18,20 +18,14 @@
     padding: 18px 35px;
 }
 
-.header{
+.header {
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png'),url(../images/developer.png);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right,left;
-    position: absolute;
-
-    /* background-size: 800px 500px; */
-    
-    /* margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0; */
+    background-position: bottom right, left;
+    /* position: absolute; */
 }
+
 /* header and nav styles */
 nav {
     display: flex;
@@ -71,11 +65,55 @@ nav li {
 .banner-subtitle {
     font-weight: 400;
     font-size: 35px;
-    
+
 }
 
 .banner-discription {
     margin-bottom: 20px;
     font-size: 14px;
     color: #757575;
+}
+
+/* main section */
+
+main {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+/* about section */
+
+.about {
+    margin-top: 80px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 80px 120px;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title{
+    font-size: 18px;
+    color: #757575;
+}
+.info-description{
+    font-size: 18px;
+    color: #100f0f;
 }
