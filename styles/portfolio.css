@@ -156,3 +156,37 @@ section{
 }
 
 /* resume styles */
+
+.resume-content{
+    display: flex;
+    gap: 30px;
+}
+
+.resume .title{
+    font-weight: 500;
+    font-size: 22px;
+    color: aquamarine;
+    margin-bottom: 6px;
+
+}
+
+.resume .sub-title{
+    color: rgb(81, 147, 167);
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.resume .description{
+    color: #757575;
+}
+
+.resume-item{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.resume-button{
+    margin-top: 35px;
+    text-align: center;
+}
